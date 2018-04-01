@@ -36,8 +36,7 @@ int main() {
 
   UBRR0 = 4;
   
-  // Set default
-  UCSR0C = 0b00000110;
+  UCSR0C = 0b00001110;
   
   // Set default
   UCSR0A = 0b00000000;
