@@ -32,7 +32,7 @@ using Tab = Output<Ports::B, 0>;
 int main() {
   RE::on();
 
-  UBRR0 = 0;
+  UBRR0 = 4;
   
   // Set default
   UCSR0C = 0b00000110;
