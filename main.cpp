@@ -72,6 +72,10 @@ int main() {
     while (!(UCSR0A & 0b10000000));
     
     if (command != ~UDR0) continue;
+    
+    while (!(UCSR0A & 0b10000000));
+    
+    if (UDR0 != 0xff) continue;
   
   
     R::set(command & 1);
