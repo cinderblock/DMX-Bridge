@@ -22,6 +22,11 @@ all: build run
 run: avrdude-flash
 
 uMakerPath = uMaker/
+AVRpp_BASEDIR = AVR
+
+INCLUDES = $(AVRpp_BASEDIR)
+
+AVRpp_SRC = 
 
 TARGET = DMX-bridge
 
