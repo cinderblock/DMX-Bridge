@@ -12,6 +12,7 @@ using B = Output<Ports::D, 3>; // OC2B
 
 // Read enable
 using RE = Output<Ports::C, 5, true>;
+using DE = Output<Ports::D, 2>;
 
 using Tab = Output<Ports::B, 0>;
 
@@ -31,6 +32,7 @@ using Tab = Output<Ports::B, 0>;
 
 int main() {
   RE::on();
+  DE::off();
 
   UBRR0 = 4;
   
