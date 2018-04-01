@@ -1,0 +1,12 @@
+[submodule "uMaker"]
+	path = uMaker
+	url = https://github.com/cinderblock/uMaker.git
+	pushurl = git@github.com:cinderblock/uMaker.git
+[submodule "AVR"]
+	path = AVR
+	url = https://github.com/cinderblock/AVR.git
+	pushurl = git@github.com:cinderblock/AVR.git
+[submodule "libCameron"]
+	path = libCameron
+	url = https://github.com/cinderblock/libCameron.git
+	pushurl = git@github.com:cinderblock/libCameron.git
